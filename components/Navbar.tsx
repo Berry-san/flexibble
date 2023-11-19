@@ -41,12 +41,12 @@ const Navbar = async () => {
               />
             )}
 
-            {/* <Link href="/create-project">
-                <Button title="Share work" />
-              </Link> */}
+            <Link href="/create-project">
+              {/* <Button title="Share work" /> */}
+              <button>Share work</button>
+            </Link>
           </>
         ) : (
-          // <>Hello</>
           <AuthProviders />
         )}
       </div>
