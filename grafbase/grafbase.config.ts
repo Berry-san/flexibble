@@ -25,9 +25,9 @@ const Project = g.model('Project', {
 
 export default config({
   schema: g,
-  auth: {
-    rules: (rules) => {
-      rules.public()
-    },
-  },
+  // auth: {
+  //   rules: (rules) => {
+  //     rules.public()
+  //   },
+  // },
 })
